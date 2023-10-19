@@ -1,12 +1,12 @@
 /**/
 
 html,body {
-  background: skyblue;
+  background: rgb(251, 172, 185);
   height: 100%;
 }
 
 .out {
-  border: solid 1px black;
+  border: solid 2px rgba(255, 79, 255, 0.889);
   border-radius: 20px;
   padding: 10px;
   margin: 5px;
@@ -16,9 +16,11 @@ html,body {
 
 #btn {
   font-size: 2em;
+  background:whitesmoke;
 }
 
 #btn::after {
   content: "▶";
   color: red;
 }
+
